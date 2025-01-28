@@ -1,0 +1,13 @@
+.title{
+    color:red;
+    font: size 20px;
+    font-weight: 100;
+}
+#para1{
+    color: green;
+    font-size: 1rem;
+    text-align: justify;
+    text-decoration: red overline;
+text-decoration-style: double ;
+ font-family: "Titillium Web", serif;
+}
