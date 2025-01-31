@@ -1,0 +1,12 @@
+.box{
+    color: white;
+    width: 400px;
+    height: 550px;
+    background-image: url(https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/chatbg.png)
+    
+    
+}
+*{
+    font-family: "Roboto", serif;
+}
+
