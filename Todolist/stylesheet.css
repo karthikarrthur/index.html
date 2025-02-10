@@ -2,7 +2,7 @@
     width:380px;
     height:700px;
     color: rgb(246, 251, 255);
-    background-image: url(https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/todolistbg.webp);
+    background-image: url("https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/todolistbg.webp");
     background-repeat: no-repeat;
 font-family: "Roboto", serif;
 background-size: cover;
