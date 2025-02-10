@@ -1,0 +1,19 @@
+.background-container{
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 400px;
+    background-position: center;
+   background-image: url("https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/sea-ocean")
+   
+}
+*{
+    font-family: "Poppins", serif;
+}
+.pages-container{
+    height: 100vh;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/taj-mahal")
+}
