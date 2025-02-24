@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cat&bulb</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet href=style.css">
+</head>
+<body>
+    <div class="flex flex-col justify-center items-center bg-black">
+
+    <img src="https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/bulb-go-on-img.webp" alt="bulb-img" id="bulb" class="h-96"/>
+    <img src="https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/cat-img.webp" alt="cat-img" id="cat" class="h-96"/>
+
+    <p id="para" class="font-weight[100px]">Switched on</p>
+
+    <div class="button-container">
+
+    <button id="Offbtn" class="text-white bg-red-500 w-10 p-2 px-2">off</button>
+    <button id="Onbtn" class="text-white bg-green-600 w-10 p-2 my-2 ">on</button>
+</div>
+
+    <script>
+    
+    const bulbElement = document.getElementById("bulb")
+    const catElement = document.getElementById("cat")
+
+    const paraElement = document.getElementById("para")
+
+    const btnOffElement = document.getElementById("Offbtn")
+    const btnOnElement = document.getElementById("Onbtn")
+
+    btnOffElement.addEventListener("click", ()=>{
+
+        console.log("Offbtn")
+     
+        console.log(bulbElement)
+
+        bulbElement.src = "https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/bulb-go-off-img.webp"
+        catElement.src = "https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/cat-eyes-img.webp"
+    })
+
+    btnOnElement.addEventListener("click", ()=>{
+
+        console.log("Onbtn")
+        console.log(catElement)
+
+        bulbElement.src = "https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/bulb-go-on-img.webp"
+        catElement.src = "https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/cat-img.webp"
+    })
+
+
+
+
+</script>
+</body>
+</html>
