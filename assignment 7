@@ -1,0 +1,89 @@
+<!-- HTML -->
+
+### 💡 WHAT IS HTML
+HTML (HyperText Markup Language) is the standard language used to create web pages and structure content.
+
+### 💡 WHY HTML IS USED
+HTML is used to structure and display content on the web, such as text, images, and links.
+
+### 💡 What is Emmet & List 5 Emmet
+Emmet is a toolkit that speeds up HTML & CSS coding using shortcuts.
+
+**5 Emmet shortcuts:**
+1. `!` → Basic HTML boilerplate.
+2. `div>ul>li*5` → Div with 5 list items.
+3. `a[href="#"]*3` → 3 anchor tags.
+4. `img[src="image.jpg"]` → Image tag.
+5. `table>tr*3>td*4` → Table with 3 rows and 4 cells.
+
+### 💡 SHORT CUT CREATE of Emmet Boiler plate of HTML
+Use `!` and press `Tab` to create a full HTML5 boilerplate.
+
+### 💡 WHAT STRUCTURE OF HTML
+HTML consists of two main parts:
+1. **Head** (metadata like title).
+2. **Body** (content visible to users).
+
+### 💡 WHAT IS **HEAD** TAG
+The `<head>` tag contains metadata for the page (title, charset, etc.).
+
+### 💡 WHAT IS **BODY** TAG
+The `<body>` tag contains the visible content of the webpage (text, images, links).
+
+### 💡 IMPORTANT 3 ELEMENTS OR TAGS
+1. **`<html>`** - Root element of the document.
+2. **`<head>`** - Contains metadata.
+3. **`<body>`** - Contains visible content.
+
+### 💡 WHAT IS DIFFERENT B/W ELEMENTS & TAGS IN HTML
+- **Tags** are the building blocks (e.g., `<p>`).
+- **Elements** are the complete structure, including tags and content (e.g., `<p>This is a paragraph</p>`).
+
+
+<!-- CSS -->
+
+Here are simple answers to your CSS-related questions:
+
+### 💡 WHAT IS CSS
+CSS (Cascading Style Sheets) is used to style and design HTML content, including layout, colors, fonts, and spacing.
+
+### 💡 WHY IS CSS
+CSS is used to make web pages visually appealing by controlling their appearance and layout, separating content from design.
+
+### 💡 HOW TO CONNECT HTML & CSS, Tell the Emmet Shortcut
+To connect HTML and CSS:
+1. **Inline CSS**: `<style> /* CSS code */ </style>` inside `<head>`.
+2. **External CSS**: `<link rel="stylesheet" href="style.css">` inside `<head>`.
+
+**Emmet Shortcut**: `link:css` → creates the `<link>` tag for external CSS.
+
+### 💡 HOW TO GET FONT & COLOR, IMAGE, CDN
+- **Font**: Use `@import` or `<link>` for fonts (e.g., Google Fonts).
+- **Color**: Define color using name (`red`), hex (`#FF0000`), rgb (`rgb(255,0,0)`).
+- **Image**: Use `<img src="image.jpg">` or CSS `background-image: url('image.jpg');`.
+- **CDN**: Use a Content Delivery Network link to include external resources, like:
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  ```
+
+### 💡 BASIC CSS FAMILY: Text Family, Color & Background Family, Box Model
+1. **Text Family**: Controls fonts, size, alignment (e.g., `font-family`, `font-size`).
+2. **Color & Background**: Defines text color (`color`), background color (`background-color`), and background image (`background-image`).
+3. **Box Model**: Describes how elements are displayed with padding, borders, and margins (e.g., `margin`, `padding`, `border`).
+
+### 💡 WHEN TO USE **BACKGROUND IMG** VS **IMG TAG**
+- **`background-image`**: Used in CSS for decorative images or full-page backgrounds.
+- **`<img>` tag**: Used for content images, which need to be accessible or part of the document's flow.
+
+### 💡 WHAT IS LAYOUT & Explain About Flexbox Properties
+Layout refers to how elements are arranged on a webpage. **Flexbox** is a CSS layout model for arranging items in rows or columns with flexible spacing.
+
+**Flexbox Properties:**
+- `display: flex`: Enables flex container.
+- `flex-direction`: Defines row or column arrangement.
+- `justify-content`: Aligns items horizontally (e.g., `center`, `space-between`).
+- `align-items`: Aligns items vertically (e.g., `flex-start`, `center`).
+
+### 💡 WHAT IS TAILWIND CSS & WHY IS IT USED
+**Tailwind CSS** is a utility-first CSS framework that provides predefined classes to style elements quickly without writing custom CSS. It's used for faster development and a more consistent design.
+
