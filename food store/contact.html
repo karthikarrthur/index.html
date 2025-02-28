@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #ffffff;
+            color: #ffffff86;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #71d450, #487735);
+            text-align: center;
+            padding: 20px;
+            color: rgb(255, 255, 255);
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        /* Anime Logo */
+        .anime-logo {
+            width: 150px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        /* Contact Form and Info Section */
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 30px;
+        }
+
+        .contact-form {
+            flex: 1;
+            background-color: #000000;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(179, 143, 143, 0.1);
+            background: #589A3F;
+        }
+
+        .contact-form h2 {
+            color: rgb(0, 0, 0);
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ffffff;
+            font-size: 1rem;
+            background-color: #ffffff;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            height: 150px;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 14px;
+            background-color: rgb(228, 216, 216);
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: rgba(255, 255, 255, 0.479);
+        }
+
+        /* Contact Info Section */
+        .contact-info {
+            flex: 1;
+            background-color: hsl(0, 0%, 100%);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background: #589A3F;
+        }
+
+        .contact-info h3 {
+            color: #000000;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-info p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .contact-info ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .contact-info ul li {
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        .contact-info ul li i {
+            margin-right: 10px;
+            color: #c5c9c8;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+            
+        }
+
+        /* Media Query for Small Screens */
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-form,
+            .contact-info {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .contact-form button {
+                font-size: 1rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Us</h1>
+        <img src="/assets/logo.png" alt="Anime Logo" class="anime-logo"> <!-- Replace with your Anime logo image -->
+    </header>
+
+    <!-- Contact Form and Information Section -->
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <h3>Our Contact Information</h3>
+            <p>If you'd like to reach us directly, feel free to use the methods below:</p>
+            <ul>
+                <li><i class="fas fa-phone-alt"></i>Phone: +91 9514439496</li>
+                <li><i class="fas fa-envelope"></i>Email: foodworld@gmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i>Address: 123 Otaku Street, chennai, india</li>
+            </ul>
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 food Website | All Rights Reserved</p>
+    </footer>
+
+    <!-- Font Awesome (for icons) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
