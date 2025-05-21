@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering</title>
+    <style>
+        /* style.css */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        
+        .menu, .cart {
+            width: 45%;
+        }
+        
+        .item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        
+        button {
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        
+        .cart {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        </style>
+</head>
+<body>
+     <!-- Navbar Section Starts Here -->
+     <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="/assets/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+        <div class="menu text-right">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="categories.html">Categories</a>
+                </li>
+                <li>
+                    <a href="foods.html">Foods</a>
+                </li>
+                <li>
+                    <a href="order.html">order</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    <!-- Food Menu -->
+    <div class="menu">
+        <h2>Food Menu</h2>
+        <div class="item" data-id="1" data-name="Burger" data-price="5.00">
+            <img src="https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/burger.jpg?updatedAt=1743002162672"/>
+            <p>Burger - $5.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item" data-id="2" data-name="Pizza" data-price="8.00">
+            <img src="https://ik.imagekit.io/xdrmufpnj/mern%20full%20stack/menu-pizza.jpg?updatedAt=1743002172055"/>
+            <p>Pizza - $8.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item" data-id="3" data-name="Pasta" data-price="7.00">
+            <p>Pasta - $7.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Cart -->
+    <div class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items">
+            <li>Your cart is empty</li>
+        </ul>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
